@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-consumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.6",
+    "mysql": "^2.18.1"
+  }
+}
