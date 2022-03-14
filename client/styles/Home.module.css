@@ -1,0 +1,77 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  color: #fff;
+  font-family: 'Poppins';
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jade, .pedro, .artur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jade {
+  margin-top: 100px;
+}
+
+.botaoVoto {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 40px 0px;
+}
+
+.imagemRadius {
+  border-radius: 50%;
+}
+
+.logobbb {
+  margin-top: 30px;
+}
+
+.avisoInicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerAgradecimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1120px) {
+  .avisoInicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jade {
+    margin-top: 0px;
+  }
+
+  .emparedados {
+    margin: 100px 0px;
+    max-width: 1120px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
